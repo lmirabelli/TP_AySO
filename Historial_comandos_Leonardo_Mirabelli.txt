@@ -1,0 +1,260 @@
+    1  whoami
+    2  pwd
+    3  cd repogit
+    4  ls
+    5  cd ..
+    6  cat README 
+    7  git clone https://github.com/lmirabelli/mirabelli_vagrant.git
+    8  ls
+    9  cd mirabelli_vagrant/
+   10  ls
+   11  history > historial.txt
+   12  ls
+   13  cat historial.txt 
+   14  git status
+   15  git add --all
+   16  git status
+   17  git commit -m primerCommit
+   18  git status
+   19  git config --global user.email "chuchenko1986@gmail.com"
+   20  git commit -m "primerCommit"
+   21  git push
+   22  git status
+   23  git push
+   24  git status
+   25  git push
+   26  clear
+   27  exit
+   28  vagrant
+   29  vagrant ls
+   30  ls
+   31  ls-la
+   32  ssh-keygen -t ed25519
+   33  ls-la
+   34  .bash_history
+   35  ls
+   36  cd/.ssh
+   37  ls -la
+   38  cd .ssh
+   39  ls
+   40  cat if_ed2559.pub
+   41  cat id_ed25519.pub
+   42  cd ..
+   43  ls
+   44  cd repogit
+   45  ls
+   46  cd mirabelli_vagrant
+   47  cd ..
+   48  cd mirabelli_vagrant/
+   49  ls
+   50  cd ..
+   51  ls
+   52  cd repogit
+   53  ls
+   54  git clone git@github.com:lmirabelli/mirabelli_vagrant.git
+   55  ls
+   56  cd mirabelli_vagrant/
+   57  ls
+   58  history
+   59  history > historial.txt
+   60  ls
+   61  git status
+   62  git add .
+   63  git commit -m "primer_commit"
+   64  git push
+   65  cat /proc/cpuinfo | grep proce
+   66  cat /proc/cpuinfo | grep model
+   67  cat /etc/passwd
+   68  cd ..
+   69  cat
+   70  ls
+   71  mkdir tp_ayso
+   72  ls
+   73  cd tp_ayso/
+   74  ssh-keygen -t ed255519
+   75  ls
+   76  cd ..
+   77  ls
+   78  cd tp_ayso/
+   79  ssh-keygen
+   80  ls -la
+   81  cd ..
+   82  ls -la
+   83  cd tp_ayso
+   84  ls -la
+   85  cat .ssh
+   86  cd .
+   87  ls -la
+   88  pwd
+   89  cd ../../
+   90  pwd
+   91  cd ..
+   92  ls -la
+   93  cd vagrant
+   94  ls -la
+   95  cd .ssh
+   96  ls -la
+   97  cd ..
+   98  ls
+   99  cd repogit
+  100  cd tp_ayso
+  101  git clone git@github.com:lmirabelli/TP_AySO.git
+  102  ls
+  103  cd TP_AySO/
+  104  ls
+  105  cd ..
+  106  ls
+  107  rm -r tp_ayso/
+  108  ls
+  109  git clone git@github.com:lmirabelli/TP_AySO.git
+  110  ls
+  111  cd TP_AySO/
+  112  pwd
+  113  ls -l
+  114  cat /etc/os-release
+  115  grep HOME_URL /etc/os-release 
+  116  grep home_url /etc/os-release 
+  117  grep -i Home_url /etc/os-release 
+  118  echo whoami
+  119  ecgo $(whoami)
+  120  echo $(whoami)
+  121  echo "Usuario=$(whoami)" > datos_usuario.txt
+  122  ls
+  123  cat datos_usuario.txt 
+  124  git status
+  125  git add .
+  126  git commit -m datos_usuario
+  127  echo /proc
+  128  cat /proc
+  129  cat /proc/cpuinfo
+  130  cat proc/cpuinfo | grep -i model | grep -i name | head -n1
+  131  cat /proc/cpuinfo | grep -i model
+  132  cat /proc/cpuinfo | grep -i model | grep -i name
+  133  cat /proc/cpuinfo | grep -i model | grep -i name | head -n1
+  134  cat /proc/cpuinfo | grep -i model | grep -i name | head -n1 >> datos_usuario.txt 
+  135  cat datos_usuario.txt 
+  136  git status
+  137  git add .
+  138  git status
+  139  git commit -m “feat: Anadiendo informacion de CPU”
+  140  git commit -m "feat: Anadiendo informacion de CPU"
+  141  git status
+  142  [200~grep -v 'nologin' /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+  143  ls
+  144  cd repogit
+  145  history
+  146  ls
+  147  cd TP_AySO/
+  148  grep -v 'nologin' /etc/passwd | head -n 10 | sort -t: -k7 > lista_ordenada
+  149  ls
+  150  cat lista_ordenada 
+  151  git add .
+  152  git status
+  153  git commit -m "ADD: Listado de usuarios ordenada"
+  154  man
+  155  man dump
+  156  man -k "traffic" | grep -i dump
+  157  man | grep -i dump
+  158  man man
+  159  man -k "network traffic" | grep -i dump
+  160  man man
+  161  man man | grep -i "dump"
+  162  echo man man | grep -i "dump"
+  163  cat man man | grep -i "dump"
+  164  git status
+  165  ls -la
+  166  cd mirabelli_vagrant/
+  167  ls -la
+  168  git status
+  169  whoami
+  170  echo "Usuario=$(whoami" > datos_usuario.txt
+
+
+  171  echo "Usuario=$(whoami)" > datos_usuario.txt
+  172  ls
+  173  git status
+  174  cd ..
+  175  ls
+  176  cd carpeta_compartida/
+  177  ls
+  178  cd ..
+  179  ls
+  180  cd mirabelli_vagrant/
+  181  ls
+  182  echo datos_usuarios.txt
+  183  git add .
+  184  git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+  185  git status
+  186  grep
+  187  /proc
+  188  grep /proc
+  189  cpuinfo
+  190  echo cpuinfo
+  191  ls
+  192  cat cpuinfo
+  193  cat datos_usuario.txt 
+  194  cat /proc/cpuinfo
+  195  history
+  196  cat proc/cpuinfo grep -i name
+  197  cat proc/cpuinfo | grep -i name
+  198  cat proc/cpuinfo
+  199  grep proc/cpuinfo
+  200  cat /proc/cpuinfo | grep name
+  201  cat /proc/cpuinfo | grep name | head -n1
+  202  echo /proc/cpuinfo | grep name | head -n1 >> datos_usuario.txt
+  203  cat datos_usuario.txt 
+  204  cat /proc/cpuinfo | grep name | head -n1
+  205  cat /proc/cpuinfo | grep name | head -n1 >> datos_usuario.txt
+  206  cat datos_usuario.txt 
+  207  git status
+  208  git add .
+  209  git commit -m "feat: añadiendo informacion de CPU"
+  210  git push
+  211  git clone 
+  212  git clone git@github.com:lmirabelli/TP_AySO.git
+  213  git status
+  214  git add .
+  215  git push
+  216  ls -la
+  217  cd TP_AySO/
+  218  ls -la
+  219  echo "Usuario=$(whoami)" > datos_usuario.txt
+  220  ls
+  221  cat /proc/cpuinfo | grep name | head -n1 >> datos_usuario.txt
+  222  ls -la
+  223  cat datos_usuario.txt 
+  224  git status
+  225  git add .
+  226  git status
+  227  git commit -m "feat: Añadiendo informacion de CPU"
+  228  git push
+  229  cat /etc/passwd
+  230  cat /etc/passwd | awk -F: '$7 != "/sbin/nologin"' | head -n 10 | sort -t: -k7 > lista_ordenada.txt
+  231  cat lista_ordenada.txt 
+  232  cat /etc/passwd | grep != "nologin"
+  233  cat /etc/os-release
+  234  cat /etc/os-release | grep -i HOME_URL
+  235  cat /etc/passwd | grep -v "nologin"
+  236  grep -v nologin /etc/passwd | sort -t: -k7 > lista_ordenada.txt
+  237  ls
+  238  cat lista_ordenada.txt 
+  239  git add .
+  240  git status
+  241  git commit -m "lista ordenada"
+  242  git push
+  243  echo tcpdump
+  244  cat tcpdump
+  245  sudo cat tcpdump
+  246  echo "Comando Dump Traffic = tcpdump" > comando_dump_net.txt
+  247  ls
+  248  ls -la
+  249  cat comando_dump_net.txt 
+  250  echo "Alumno: Mirabelli, Leonardo Gaston" >> readme.md
+  251  cat readme.md 
+  252  echo "Division: 113" >> readme.md
+  253  echo "Turno: Mañana" >> readme.md
+  254  cat readme.md 
+  255  git add .
+  256  git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+  257  cat /HOME/.bash_history
+  258  history > "Historial_comandos_Leonardo_Mirabelli.txt"
